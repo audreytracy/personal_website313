@@ -1,0 +1,137 @@
+* {
+    text-indent: 25px;
+    font-family: 'Nunito', sans-serif;
+}
+
+nav {
+    background-color: #888695;
+}
+
+nav li {
+    display: inline;
+}
+
+nav li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 200%;
+}
+
+body {
+    background-color: #c7ced5;
+}
+
+h1 {
+    margin: -5px -5px -5px -5px;
+    padding-top: 1.5em;
+    font-size: 1000%;
+    text-shadow: 0 0 15px #fff;
+    text-align: center;
+}
+
+h2 {
+    margin: -5px -5px -5px -5px;
+    padding: none;
+    font-size: 100px;
+    text-shadow: 0 0 15px #fff;
+    text-align: center;
+}
+
+ul {
+    list-style: circle;
+    text-align: left;
+    padding: 0;
+}
+
+.no_bullet {
+    list-style: none;
+}
+
+table {
+    padding-top: 2em;
+    display: block;
+    max-width: fit-content;
+    margin: auto;
+    overflow-x: scroll;
+    white-space: nowrap; /*keep table contents on one line*/
+    border-collapse: collapse;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+td, th {
+    text-align: left;
+    padding: 16px 32px;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+    color: #2e0717;
+    text-shadow: 0 0 15px #7e7a94;
+}
+
+tr:nth-child(even) {
+    background-color: #888695;
+    color: white;
+}
+
+.background {
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tree-background {
+    background-image: url("../images/backgrounds/tree.jpg");
+}
+
+.mtn-background {
+    background-image: url("../images/backgrounds/mtn.jpg");
+}
+
+.road-background {
+    background-image: url("../images/backgrounds/road.jpg");
+}
+
+.river-background {
+    background-image: url("../images/backgrounds/river.jpg");
+}
+
+.plane-background {
+    background-image: url("../images/backgrounds/plane.jpg");
+}
+
+.separator {
+    height: 900px;
+    background-color: #c7ced5;
+    font-size: 25px
+}
+
+.img {
+    border-radius: 50px;
+    opacity: 0.9;
+    float: left;
+    padding: 30px;
+    max-width: 500px;
+    height: auto;
+}
+
+p {
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    padding-top: 60px;
+    font-size: calc(60% + 1vw);
+}
